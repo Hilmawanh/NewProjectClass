@@ -1,0 +1,331 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "dobleh",
+      "password": "qwe",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "jamal",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "username": "james",
+      "password": "11",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "jaja",
+      "password": "11",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "asa",
+      "password": "asa",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "mpi",
+      "password": "qwe",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "password": "123",
+      "username": "ida",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "username": "jji",
+      "password": "123",
+      "role": "user",
+      "id": 9
+    },
+    {
+      "username": "zaki",
+      "password": "qwer",
+      "role": "user",
+      "id": 10
+    }
+  ],
+  "studios": [
+    {
+      "id": 1,
+      "nama": "studio 1",
+      "jumlahKursi": 260
+    },
+    {
+      "id": 2,
+      "nama": "studio 2",
+      "jumlahKursi": 240
+    },
+    {
+      "id": 3,
+      "nama": "studio 3",
+      "jumlahKursi": 200
+    },
+    {
+      "nama": "studio4",
+      "jumlahKursi": "260",
+      "id": 4
+    }
+  ],
+  "movies": [
+    {
+      "title": "Jumanji",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157380448937451_287x421.jpg",
+      "sinopsis": "Dwayne Johnson, Karen Gillan, Jack Black dan Kevin Hart kembali ke Jumanji,keempatnya harus menyelamatkan salah satu teman mereka. Namun permainan telah berubah.Para pemain kini harus lebih berani melintasi rintangan ekstrem dan kembali dengan selamat dari permainan paling berbahaya di dunia.",
+      "sutradara": "Jake Kasdan",
+      "genre": "action",
+      "durasi": "121",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/rBxcF-r9Ibs",
+      "studioId": "1",
+      "id": 1
+    },
+    {
+      "title": "Last Chris",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157285280844221_287x421.jpg",
+      "sinopsis": "Kate (Emilia Clarke) adalah seorang wanita muda yang mengambil keputusan buruk. Kencan terakhirnya berakhir dengan bencana? Saat diterima di sebuah toko pernak-pernik natal dan berperan sebagai Peri ia bertemu dengan Tom (Henry Golding), Hidupnya berubah lagi. Bagi Kate, sepertinya terlalu bagus untuk menjadi kenyataan.",
+      "sutradara": "Paul Feig",
+      "genre": "action",
+      "durasi": "121",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        16
+      ],
+      "trailer": "https://www.youtube.com/embed/z9CEIcmWmtA",
+      "studioId": "1",
+      "id": 2
+    },
+    {
+      "title": "Habibie & Ainun 3",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157466395513352_287x421.jpg",
+      "sinopsis": "Kisah Ainun (Maudy Ayunda) sebagaimana remaja di usianya ,punya kisah kasih yang cukup unik, menggelitik dan menarik.Saat di SMA, Ainun dikenal sebagai sosok cerdas yang menjadi pujaan di sekolahnya dan menjadi incaran banyak siswa laki-laki, termasuk Habibie. Hubungan mereka bermula dari sebuah pertemanan. Di bangku kuliah Ainun, Sebagai mahasiswi kedokteran menjadi sosok yang popular di lingkungan kampusnya dan menjadi sosok dambaan setiap pria.Ahmad (Jefri Nichols), Pria tampan yang berasal dari keluarga terpandang dan kawan sekampus Ainun adalah pria yang akhirnya ia berani menyatakan cintanya kepada Ainun. Lantas apa yang membuat BJ Habibie menjadi pelabuhan terakhir perjalanan cinta Ainun. Habibie Ainun 3, Terinspirasi dari masa muda almarhumah Hasri Ainun Besari Habibie dan kenangan BJ Habibie atas belahan jiwanya.",
+      "sutradara": "hanung bramantyo",
+      "genre": "romance",
+      "durasi": "121",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16
+      ],
+      "trailer": "https://www.youtube.com/embed/CIP0esJ6MMs",
+      "studioId": "1",
+      "id": 3
+    },
+    {
+      "title": "Eggnoid",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157356145959988_287x421.jpg",
+      "sinopsis": "Selama 2 tahun terakhir Ran dan Eggy telah menjadi sepasang sahabat yang tak terpisahkan. Ran yang dulu kesepian dan penuh dengan kesedihan, kini menjadi sosok yang lebih bahagia karena Eggy. Perasaan yang awalnya hanya sebagai sahabat, pelan-pelan berubah menjadi cinta. Sayangnya, Eggy bukan manusia biasa. Melainkan Eggnoid yang dikirim dari masa depan. Sebagai Eggnoid, Eggy memiliki aturan-aturan yang tidak boleh dilanggar. Kini, Eggy terancam dikirim pulang ke masa depan dan berpisah dengan Ran selamanya karena salah satu aturan besar yang tidak boleh ia langgar adalah jatuh cinta dan pacaran dengan Ran.",
+      "sutradara": "Naya Anandita",
+      "genre": "Komedi",
+      "durasi": "140",
+      "produksi": "RANS",
+      "trailer": "https://www.youtube.com/embed/Y7maBc4tx6g",
+      "jadwal": [
+        12,
+        14
+      ],
+      "studioId": "1",
+      "id": 4
+    },
+    {
+      "title": "Darah Daging",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/15743293802147_287x421.jpg",
+      "sinopsis": "Seberapa besar pengorbanan yang bisa Anda berikan untuk menyelamatkan Ibu yang telah merawat Anda dari kecil? Pertanyaan tersebut dibuktikan ketiga bersaudara: ARYA (Ario Bayu), RAHMAT (Rangga Nattra) dan FIKRI (Arnold Leonard) dengan melakukan perampokan bank, mereka mengajak sahabat Rahmat dari kecil, SALIM (Donny Alamsyah) ikut serta pula BORNE (Tanta Ginting), Perampokan tersebut tidak berlangsung sesuai rencana dan mengakibatkan SALIM ditangkap dan dihukum.  12 tahun berlalu, SALIM yang dijatuhi hukuman mati kedatangan seorang penulis perempuan, HANNA (Estelle Linden) yang tertarik mengangkat kisah perampokan tersebut ke dalam sebuah novel.",
+      "sutradara": "Sarjono Sutrisno",
+      "genre": "Action",
+      "durasi": "154",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16
+      ],
+      "trailer": "https://www.youtube.com/embed/XG__1TjYjI4",
+      "studioId": "1",
+      "id": 5
+    },
+    {
+      "title": "The Good Liar",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157423720057093_287x421.jpg",
+      "sinopsis": "Berawal dari perkenalan di situs kencan daring, Roy (Ian McKellen) seorang penipu ulung berhasil mendekati Betty, janda kaya raya dengan harta melimpah.  Tapi hubungan keduanya mendapat respon keras dari keluarga Betty, yang menduga Roy punya niat jahat. Saat memulai misinya ternyata Roy justru jatuh cinta kepada Betty.  Roy yang awalnya bisa menjalankan misinya dengan mudah, justru harus melalui melewati jalan yang bisa membahayakan dirinya.",
+      "sutradara": "Bill Condon",
+      "genre": "Drama",
+      "durasi": "111",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16
+      ],
+      "trailer": "https://www.youtube.com/embed/ljKzFGpPHhw",
+      "studioId": "1",
+      "id": 6
+    },
+    {
+      "id": "6",
+      "title": "Cats",
+      "sutradara": "Tom Hooper",
+      "durasi": 123,
+      "cast": [
+        "James Corden ",
+        "Judi Dench ",
+        "Jason Derulo ",
+        "Idris Elba"
+      ],
+      "jadwal": [
+        10,
+        12,
+        14
+      ],
+      "sinopsis": "Sebuah adaptasi drama musikal yang kisahnya terinspirasi dari puisi Old Possums Book of Practical Cats karya T.S. Elliot. Bercerita tentang suku kucing bernama Jellicle yang pada suatu malam, mereka memutuskan untuk mengubah takdir hidupnya menjadi lebih baik dengan melewati Heaviside Layer.",
+      "trailers": [
+        "https://www.youtube.com/embed/U_O8DN1CY_E"
+      ],
+      "studioId": 1,
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157542998785544_287x421.jpg",
+      "genre": "Comedy, Drama, Family.",
+      "produksi": "Universal Pictures"
+    },
+    {
+      "id": "7",
+      "title": "Dignitate",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157527284143358_287x421.jpg",
+      "jadwal": [
+        10,
+        12,
+        14
+      ],
+      "sutradara": "Fajar Nugros",
+      "durasi": "129",
+      "cast": [
+        "Al Ghazali ",
+        "Caitlin Halderman ",
+        "Giorgino Abraham ",
+        "Teuku Ryzki ",
+        "Sophia Latjuba"
+      ],
+      "sinopsis": "Alfi seorang siswa di Sma Sanjaya yang terkenal sarkas, dingin, galak bahkan sampai mendapat julukan GGS alias ganteng-ganteng seram. Walau terkenal bukan sosok cowok menyenangkan namun tidak membuat siswi-siswi disana berhenti menyukainya, sayangnya Alfi hanya fokus pada prestasinya saja. Sampai datang seorang siswi baru bernama Alana yang periang, baik dan polos di sekolah Alfi. Karna kepribadiannya yang bertolak belakang jadi membuat Alfi dan Alana selalu bertengkar. Hingga keceriaan Alana seketika hilang saat hadir sosok lelaki bernama Regan yang tak lain adalah mantannya. Regan adalah anak jalanan yang tergabung dalam geng motor dan sangat disegani, dia juga mempunyai kehidupan yang sangat kelam.",
+      "trailers": [
+        "https://www.youtube.com/embed/v-94JfuzQAM"
+      ],
+      "studioId": 1,
+      "genre": "Drama.",
+      "produksi": "VISINEMA PICTURES"
+    }
+  ],
+  "orders": [
+    {
+      "UserId": 3,
+      "movieId": 3,
+      "totalharga": 25000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 1
+    },
+    {
+      "UserId": 3,
+      "movieId": 3,
+      "totalharga": 25000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 2
+    },
+    {
+      "UserId": 7,
+      "movieId": 4,
+      "totalharga": 50000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 3
+    },
+    {
+      "UserId": 7,
+      "movieId": 4,
+      "totalharga": 50000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 4
+    },
+    {
+      "UserId": 8,
+      "movieId": 3,
+      "totalharga": 50000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 5
+    }
+  ],
+  "ordersDetails": [
+    {
+      "orderId": 1,
+      "seat": 8,
+      "row": 0,
+      "id": 1
+    },
+    {
+      "orderId": 2,
+      "seat": 6,
+      "row": 2,
+      "id": 2
+    },
+    {
+      "orderId": 3,
+      "seat": 7,
+      "row": 4,
+      "id": 3
+    },
+    {
+      "orderId": 3,
+      "seat": 8,
+      "row": 3,
+      "id": 4
+    },
+    {
+      "orderId": 4,
+      "seat": 13,
+      "row": 1,
+      "id": 5
+    },
+    {
+      "orderId": 4,
+      "seat": 14,
+      "row": 1,
+      "id": 6
+    },
+    {
+      "orderId": 5,
+      "seat": 9,
+      "row": 5,
+      "id": 7
+    },
+    {
+      "orderId": 5,
+      "seat": 9,
+      "row": 4,
+      "id": 8
+    }
+  ]
+}
