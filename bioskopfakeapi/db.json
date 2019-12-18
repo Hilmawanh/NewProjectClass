@@ -83,6 +83,12 @@
       "password": "123",
       "role": "user",
       "id": 14
+    },
+    {
+      "username": "ew",
+      "password": "ew",
+      "role": "user",
+      "id": 15
     }
   ],
   "studios": [
@@ -360,6 +366,15 @@
       "bayar": false,
       "jadwal": 12,
       "id": 12
+    },
+    {
+      "userId": 15,
+      "movieId": 1,
+      "jadwal": 12,
+      "totalharga": 50000,
+      "bayar": true,
+      "tanggal": "18/12/2019",
+      "id": 13
     }
   ],
   "ordersDetails": [
@@ -506,6 +521,18 @@
       "seat": 3,
       "row": 4,
       "id": 24
+    },
+    {
+      "orderId": 13,
+      "seat": 11,
+      "row": 5,
+      "id": 25
+    },
+    {
+      "orderId": 13,
+      "seat": 10,
+      "row": 5,
+      "id": 26
     }
   ]
 }
