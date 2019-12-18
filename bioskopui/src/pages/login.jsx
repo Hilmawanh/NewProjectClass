@@ -12,8 +12,6 @@ class Login extends Component {
     loading: false
   };
 
- 
-
   onLoginClick = () => {
     var username = this.refs.username.value;
     var password = this.refs.password.value;
@@ -25,7 +23,7 @@ class Login extends Component {
           localStorage.setItem("user", res.data[0].id);
           this.props.LoginSuccessAction(res.data[0]); //ini buat masukin parameter di AuthAction, yg nantinya dipake di reducers
         } else {
-          this.setState({ error: "salah pass" });
+          this.setState({ error: "salah pass bro:) " });
         }
         this.setState({ loading: false });
       })
@@ -119,13 +117,25 @@ class Login extends Component {
                 <span className="focus-input100"></span>
               </div>
 
-              <label class="txt1">
+              {/* <label class="txt1">
                 Didn't have Account?{" "}
                 <Link to={"/register"} style={{ fontSize: "20px" }}>
                   {" "}
                   Register{" "}
                 </Link>{" "}
-              </label>
+              </label> */}
+
+              {this.state.error === "" ? null : (
+                <div className="alert alert-danger mt-2">
+                  {this.state.error}
+                  <span
+                    onClick={() => this.setState({ error: "" })}
+                    className="float-right font-weight-bold"
+                  >
+                    X
+                  </span>
+                </div>
+              )}
 
               <div className="container-login100-form-btn">
                 <button

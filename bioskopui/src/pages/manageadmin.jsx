@@ -14,6 +14,10 @@ import { MdLibraryAdd } from "react-icons/md";
 import { FiEdit, FiPlusSquare } from "react-icons/fi";
 import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+const Myswal = withReactContent(Swal);
 
 class ManageAdmin extends Component {
   state = {
@@ -22,6 +26,7 @@ class ManageAdmin extends Component {
     readmoreselected: -1,
     modalad: false,
     modaledit: false,
+    iddelete: -1,
     indexedit: 0,
     jadwal: [12, 14, 16, 18, 20, 22]
   };
@@ -167,6 +172,37 @@ class ManageAdmin extends Component {
     }
   };
 
+  deleteMovie = index => {
+    Myswal.fire({
+      title: `Hapus  ${this.state.dataFilm[index].title}`,
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: "Yes, delete it!",
+      cancelButtonText: "No, cancel!",
+      reverseButtons: true
+    }).then(result => {
+      if (result.value) {
+        const datahapus = this.state.dataFilm;
+        this.setState({ iddelete: datahapus[index].id });
+        Axios.delete(`${APIURL}movies/${this.state.iddelete}`).then(() => {
+          Axios.get(`${APIURL}movies`)
+            .then(res => {
+              this.setState({ dataFilm: res.data });
+            })
+            .catch(err => {
+              console.log(err);
+            });
+        });
+        console.log(this.state.iddelete);
+        // datahapus.splice(index, 1);
+        Myswal.fire("Deleted!", "Your file has been deleted.", "success");
+      } else {
+        Myswal.fire("Cancelled", "", "error");
+      }
+    });
+  };
+
   renderMovies = () => {
     return this.state.dataFilm.map((val, index) => {
       return (
@@ -208,7 +244,13 @@ class ManageAdmin extends Component {
             >
               Edit
             </button>
-            <button className="btn btn-outline-danger">Delete</button>
+            &nbsp; &nbsp; &nbsp;
+            <button
+              onClick={() => this.deleteMovie(index)}
+              className="btn btn-dark"
+            >
+              Delete
+            </button>
           </TableCell>
         </TableRow>
       );
@@ -349,6 +391,7 @@ class ManageAdmin extends Component {
             <button className="btn btn-success" onClick={this.onSaveAddClick}>
               Save
             </button>
+
             <button
               className="btn btn-danger"
               onClick={() => this.setState({ modaladd: false })}
@@ -441,12 +484,15 @@ class ManageAdmin extends Component {
         </Modal>
 
         <Fade>
-          <button
-            className="btn btn-success mt-2"
-            onClick={() => this.setState({ modaladd: true })}
-          >
-            <MdLibraryAdd style={{ fontSize: 20 }} /> &nbsp; Add Movie
-          </button>
+          <center>
+            <button
+              className="btn btn-success mt-2"
+              onClick={() => this.setState({ modaladd: true })}
+            >
+              <MdLibraryAdd style={{ fontSize: 20 }} /> &nbsp; Add Movie
+            </button>
+          </center>
+
           <Table>
             <TableHead>
               <TableRow>

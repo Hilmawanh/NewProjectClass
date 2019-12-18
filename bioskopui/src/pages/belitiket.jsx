@@ -219,7 +219,7 @@ class Belitiket extends Component {
           <Modal isOpen={this.state.openmodalcart}>
             <ModalBody>cart berhasil ditambah</ModalBody>
             <ModalFooter>
-              <button className="btn btn-success" onClick={this.functionRefresh}>
+              <button className="btn btn-primary" onClick={this.functionRefresh}>
                 {/* <Link to='/belitiket'></Link> */}
                 Ok
               </button>

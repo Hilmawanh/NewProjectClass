@@ -19,6 +19,7 @@ import { Notification } from "./redux/actions";
 import Footer from "./components/footer";
 import Ganemu from "./pages/ganemu";
 import Resetpass from "./pages/resetPass";
+import Carouselhome from './components/carousel'
 
 class App extends Component {
   state = {
@@ -69,7 +70,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route path={"/"} exact>
-            {/* <SimpleSlider /> */}
+            <Carouselhome/>
             <Home />
           </Route>
           <Route exact path={"/manageadmin"} component={ManageAdmin} />

@@ -37,8 +37,8 @@
       "id": 6
     },
     {
+      "password": "123",
       "username": "mpi",
-      "password": "qwe",
       "role": "user",
       "id": 7
     },
@@ -59,6 +59,30 @@
       "password": "qwer",
       "role": "user",
       "id": 10
+    },
+    {
+      "username": "bobo",
+      "password": "123",
+      "role": "user",
+      "id": 11
+    },
+    {
+      "username": "wis",
+      "password": "123",
+      "role": "user",
+      "id": 12
+    },
+    {
+      "username": "didi",
+      "password": "123",
+      "role": "user",
+      "id": 13
+    },
+    {
+      "username": "iin",
+      "password": "123",
+      "role": "user",
+      "id": 14
     }
   ],
   "studios": [
@@ -254,19 +278,21 @@
       "id": 2
     },
     {
-      "UserId": 7,
+      "userId": 7,
       "movieId": 4,
-      "totalharga": 50000,
-      "bayar": false,
       "jadwal": 12,
+      "totalharga": 50000,
+      "bayar": true,
+      "tanggal": "18/12/2019",
       "id": 3
     },
     {
-      "UserId": 7,
+      "userId": 7,
       "movieId": 4,
-      "totalharga": 50000,
-      "bayar": false,
       "jadwal": 12,
+      "totalharga": 50000,
+      "bayar": true,
+      "tanggal": "18/12/2019",
       "id": 4
     },
     {
@@ -276,6 +302,64 @@
       "bayar": false,
       "jadwal": 12,
       "id": 5
+    },
+    {
+      "UserId": 11,
+      "movieId": 2,
+      "totalharga": 50000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 6
+    },
+    {
+      "UserId": 11,
+      "movieId": 1,
+      "totalharga": 50000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 7
+    },
+    {
+      "UserId": 14,
+      "movieId": 3,
+      "totalharga": 50000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 8
+    },
+    {
+      "userId": 7,
+      "movieId": 1,
+      "jadwal": 20,
+      "totalharga": 50000,
+      "bayar": true,
+      "tanggal": "18/12/2019",
+      "id": 9
+    },
+    {
+      "userId": 7,
+      "movieId": 6,
+      "jadwal": 12,
+      "totalharga": 100000,
+      "bayar": true,
+      "tanggal": "18/12/2019",
+      "id": 10
+    },
+    {
+      "UserId": 7,
+      "movieId": 2,
+      "totalharga": 50000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 11
+    },
+    {
+      "UserId": 7,
+      "movieId": 2,
+      "totalharga": 50000,
+      "bayar": false,
+      "jadwal": 12,
+      "id": 12
     }
   ],
   "ordersDetails": [
@@ -326,6 +410,102 @@
       "seat": 9,
       "row": 4,
       "id": 8
+    },
+    {
+      "orderId": 6,
+      "seat": 9,
+      "row": 3,
+      "id": 9
+    },
+    {
+      "orderId": 6,
+      "seat": 10,
+      "row": 3,
+      "id": 10
+    },
+    {
+      "orderId": 7,
+      "seat": 14,
+      "row": 4,
+      "id": 11
+    },
+    {
+      "orderId": 7,
+      "seat": 15,
+      "row": 4,
+      "id": 12
+    },
+    {
+      "orderId": 8,
+      "seat": 12,
+      "row": 3,
+      "id": 13
+    },
+    {
+      "orderId": 8,
+      "seat": 13,
+      "row": 2,
+      "id": 14
+    },
+    {
+      "orderId": 9,
+      "seat": 9,
+      "row": 0,
+      "id": 15
+    },
+    {
+      "orderId": 9,
+      "seat": 10,
+      "row": 0,
+      "id": 16
+    },
+    {
+      "orderId": 10,
+      "seat": 8,
+      "row": 2,
+      "id": 17
+    },
+    {
+      "orderId": 10,
+      "seat": 9,
+      "row": 2,
+      "id": 18
+    },
+    {
+      "orderId": 10,
+      "seat": 10,
+      "row": 2,
+      "id": 19
+    },
+    {
+      "orderId": 10,
+      "seat": 11,
+      "row": 2,
+      "id": 20
+    },
+    {
+      "orderId": 11,
+      "seat": 10,
+      "row": 6,
+      "id": 21
+    },
+    {
+      "orderId": 11,
+      "seat": 11,
+      "row": 6,
+      "id": 22
+    },
+    {
+      "orderId": 12,
+      "seat": 2,
+      "row": 4,
+      "id": 23
+    },
+    {
+      "orderId": 12,
+      "seat": 3,
+      "row": 4,
+      "id": 24
     }
   ]
 }
